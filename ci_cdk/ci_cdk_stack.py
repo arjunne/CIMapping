@@ -19,8 +19,8 @@ class CiCdkStack(core.Stack):
         #Get bucket
 
         environmentvar = dict()
-        environmentvar['host']='bolt://ec2-3-80-161-226.compute-1.amazonaws.com:7687'
-        environmentvar['password']='1Ncorrect'
+        environmentvar['host']=''
+        environmentvar['password']=''
 
         lambda_role = iam.Role(self,
             'ci-role',

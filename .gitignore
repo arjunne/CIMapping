@@ -1,3 +1,5 @@
 layer*
 dist*
 cdk.out*
+ci_cdk.egg*
+__pycache__
